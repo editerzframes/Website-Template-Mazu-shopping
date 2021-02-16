@@ -1,0 +1,353 @@
+  .banner {
+      background-image: url("../assets/ic_banner.png");
+      height: 480px;
+  }
+
+  .go-horizontal-flip {
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+  }
+
+  .button-rel {
+      border: 1px solid #fff;
+      position: relative;
+      width: auto;
+      height: 25rem;
+  }
+
+  .featured1 {
+      height: 400px;
+      width: 350px;
+      background-image: url("../assets/ic_img6.png");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+  }
+
+  .featured2 {
+      height: 400px;
+      width: 350px;
+      background-image: url("../assets/ic_img7.png");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+  }
+
+  .featured3 {
+      height: 400px;
+      width: 350px;
+      background-image: url("../assets/ic_img8.png");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+  }
+
+  .footer-links {
+      list-style-type: none;
+  }
+
+  .footer-p p {
+      font-size: 14px;
+      font-weight: 100;
+  }
+
+  .footer-p a {
+      color: inherit;
+      text-decoration: inherit;
+  }
+
+  .badge {
+      padding-left: 9px;
+      padding-right: 9px;
+      -webkit-border-radius: 9px;
+      -moz-border-radius: 9px;
+      border-radius: 9px;
+  }
+
+  .label-warning[href],
+  .badge-warning[href] {
+      background-color: #c67605;
+  }
+
+  #lblCartCount {
+      font-size: 12px;
+      background: #d3d3d3;
+      color: black;
+      padding: 0 5px;
+      vertical-align: top;
+      margin-left: -10px;
+  }
+
+  @font-face {
+      font-family: didotmedium;
+      src: url(../fonts/DidotMedium.ttf);
+  }
+
+  h1 {
+      font-family: didotmedium;
+  }
+
+  @font-face {
+      font-family: camptonlight;
+      src: url(../fonts/Campton-LightDEMO.otf);
+  }
+
+  .campton-light {
+      font-family: camptonlight;
+  }
+
+  .carousel-wrap {
+      margin: 50px auto;
+      padding: 0 5%;
+      width: 800px;
+      position: relative;
+  }
+
+  /* fix blank or flashing items on carousel */
+  .owl-carousel .item {
+      position: relative;
+      z-index: 100;
+      -webkit-backface-visibility: hidden;
+  }
+
+  /* end fix */
+  .owl-nav > div {
+      margin-top: -26px;
+      position: absolute;
+      top: 50%;
+      color: #cdcbcd;
+  }
+
+  .owl-nav i {
+      font-size: 52px;
+  }
+
+  .owl-nav .owl-prev {
+      left: -30px;
+  }
+
+  .owl-nav .owl-next {
+      right: -30px;
+  }
+
+  .button {
+
+      border: none;
+      color: white;
+      padding: 7px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      width: 250px;
+      height: 40px;
+  }
+
+  .button5 {
+      background-color: black;
+      color: white;
+      border: 2px solid black;
+  }
+
+  .button5:hover {
+      background-color: white;
+      color: black;
+  }
+
+  @font-face {
+      font-family: gillregular;
+      src: url(../fonts/DidotLTStdBold.otf);
+  }
+
+  .gillregular {
+      font-family: gillregular;
+  }
+
+  @font-face {
+      font-family: gillmedium;
+      src: url(../fonts/GillSansMedium.otf);
+  }
+
+  .gillmedium {
+      font-family: gillmedium;
+  }
+
+  p {
+      font-family: gillmedium;
+  }
+
+  .searchContainer {
+      display: inline-flex;
+      flex: 1 1 300px;
+      position: relative;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+  }
+
+  .searchIcon {
+      padding: 0.5rem;
+      background-color: white;
+  }
+
+  .searchBox {
+      border: 0;
+      padding: 0.5rem 0.5rem 0.5rem 0;
+      flex: 1;
+  }
+
+  .searchButton {
+      background: #538AC5;
+      border: 0;
+      color: white;
+      padding: 0.5rem;
+      border-radius: 0;
+  }
+
+  .banner-head {
+      margin-top: 100px;
+  }
+
+  .h5-head {
+      margin-top: 50px;
+  }
+
+  .hr-tag {
+      width: 100px;
+      float: left;
+      height: 2px;
+      border-width: 0;
+      color: #8e8077;
+      background-color: #8e8077;
+  }
+
+  .dress-head {
+      margin-top: 120px;
+  }
+
+  .h1-div {
+      position: absolute;
+      top: -9%;
+      left: 9%;
+  }
+
+  .h1-recommend {
+      top: 0;
+      font-size: 50px;
+      color: black;
+  }
+
+  .ban-h1 {
+      font-size: 40px;
+  }
+
+  .ban-h3 {
+      font-size: 20px;
+  }
+
+  @media screen and (max-width: 767px) {
+
+      .searchContainer {
+          display: none;
+      }
+
+      h1 {
+          font-size: 14px;
+      }
+
+      .banner-head {
+          margin-top: 20px;
+      }
+
+      p {
+          font-size: 10px;
+      }
+
+      .hr-tag {
+          width: 30px;
+          margin: 0;
+          padding: 0;
+      }
+
+      .h5-head {
+          font-size: 12px;
+          margin-top: 15px;
+      }
+
+      h6 {
+          font-size: 11px;
+      }
+
+      .banner {
+          height: 155px;
+      }
+
+      .carousel-wrap {
+          width: 350px;
+          margin: 0;
+          margin-top: 40px;
+      }
+
+      .dress-head {
+          margin-top: 60px;
+          margin-left: 15px;
+      }
+
+      .dress-h1 {
+          font-size: 18px;
+      }
+
+      .dress-p {
+          font-size: 13px;
+      }
+
+      .button {
+          display: none;
+      }
+
+      .h1-recommend {
+          font-size: 20px;
+      }
+
+      .h1-div {
+          top: -9%;
+      }
+
+      .button-rel {
+          height: 10rem;
+      }
+
+      .featured1 {
+          width: 250px;
+          height: 300px;
+          margin-left: 45px;
+      }
+
+      .featured2 {
+          width: 250px;
+          height: 300px;
+          margin-left: 45px;
+          margin-top: 20px;
+      }
+
+      .featured3 {
+          width: 250px;
+          height: 300px;
+          margin-left: 45px;
+          margin-top: 20px;
+      }
+
+      .ban-h1 {
+          font-size: 25px;
+      }
+
+      .ban-h3 {
+          font-size: 15px;
+      }
+  }
